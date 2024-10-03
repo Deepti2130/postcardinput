@@ -3,9 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
+import { PostcardComponent } from './shared/component/postcard/postcard.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+
+    PostcardComponent
   ],
   imports: [
     BrowserModule
